@@ -1,0 +1,8 @@
+Flask
+web: gunicorn app:app
+git init
+git add .
+git commit -m "Déploiement sur Render"
+git branch -M main
+git remote add origin https://github.com/VOTRE_USER/VOTRE_REPO.git
+git push -u origin main
